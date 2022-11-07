@@ -46,9 +46,32 @@ body* {
     padding-top: 52px;
 }
 
+button {
+    text-align: center;
+    margin: 2rem;
+    line-height: 15px;
+    background-color: #d3d3d3;
+    background: transparent;
+    color: #b2222b;
+ }
+
 header {
     margin-bottom: 63px;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    line-height: 20px;
+    bottom: 0;
+    background-color: #d3d3d3;
+    margin: 5rem;
+    background: transparent;
+    color: #b2222b;
+}
+
+img {
+    width: 10rem;
 }
 
 #cards {
