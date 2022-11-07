@@ -47,14 +47,23 @@ body* {
 }
 
 button {
-    text-align: center;
+    border: transparent;
     margin: 2rem;
     line-height: 15px;
+    
     background-color: #d3d3d3;
     background: transparent;
     color: #b2222b;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
+ .btn {
+    text-align: center;
+    display:block;
+    margin-bottom:15px;
+ }
 header {
     margin-bottom: 63px;
     text-align: center;
@@ -68,6 +77,8 @@ footer {
     margin: 5rem;
     background: transparent;
     color: #b2222b;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
