@@ -23,16 +23,21 @@ function createCard(date, day,games) {
 
 document.querySelector("#cards").innerHTML = 
      createCard("24/11", "quinta",
-     createGame("brazil", "16:00", "serbia") +
-     createGame("colombia", "11:30", "armenia")
+     createGame("brazil", "16:00", "serbia")
      ) +
 
-     createCard("01/12", "sexta",
-     createGame("brazil", "10:00", "cameroon") +
-     createGame("portugal", "16:00", "urugay")
+     createCard("02/12", "sexta",
+     createGame("brazil", "16:00", "cameroon") +
+     createGame("ghana", "12:00", "urugay")
      ) +
      
      createCard("03/12", "sabado",
-     createGame("ghana", "08:00", "south korea") +
+     createGame("colombia", "08:00", "south korea") +
      createGame("india", "15:30", "japan")
      )
+
+document.querySelector('#toggle').addEventListener('click', (e) => {
+    theme = e.target.checked ? 'blue' : 'green'
+    document.body.classList = [theme]
+})
+
