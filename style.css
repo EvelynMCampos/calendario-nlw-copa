@@ -86,6 +86,7 @@ img {
     display: flex;
     gap: 16px;
     justify-content: center;
+    align-items: center;
 
     padding: 8px 16px;
     border: 1px solid var(--card-title-boder-color);
@@ -127,7 +128,7 @@ img {
     font-weight: 900;
     font-size: 36px;
     line-height: 125%;
-
+    margin: 0 1rem;
     color: #E1E1E6;
 }
 
